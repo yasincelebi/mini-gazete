@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&family=Roboto+Condensed:wght@300;400;700&display=swap");
+.footer {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.socials {
+  .social {
+    font-size: 25px;
+    margin-right: 30px;
+  }
+  .insta {
+    color: tomato;
+  }
+  .linkedin {
+    color: #2867b2;
+  }
+  .twitter {
+    color: #1da1f2;
+  }
+}
