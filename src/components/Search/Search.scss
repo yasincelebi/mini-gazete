@@ -1,0 +1,57 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.input input {
+  width: 200px;
+  height: 40px;
+  transition: all 0.8s !important;
+}
+div.input input:focus {
+  width: 400px;
+  height: 50px;
+}
+@media screen and (max-width: 800px) {
+  div.input input:focus {
+    width: 300px;
+    height: 50px;
+  }
+}
+
+.col-md-4 {
+  margin-top: 20px !important;
+
+  .kart {
+    overflow: hidden;
+    height: 350px;
+    cursor: pointer;
+    &:hover {
+      color: red;
+    }
+    img {
+      height: 200px;
+    }
+    .date {
+      height: 6em !important;
+
+      .publish {
+        height: 100%;
+        vertical-align: bottom;
+      }
+    }
+  }
+}
+@media screen and(max-width: 800px) {
+  .col-md-4 {
+    .kart {
+      height: 100%;
+      img {
+        height: 300px;
+      }
+      .card-title {
+        font-size: 30px;
+      }
+    }
+  }
+}
